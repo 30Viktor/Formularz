@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Formularz</title>
+<title>Formularz</title> 
 </head>
-<body>
-<h1 align="center">Formularz</h1>
+<body  style="background-color: lightgray;">
+<h1 margin-right="2%"> Formularz</h1>
 <form>
 <label><br>
-<p>Imię i nazwisko</p>
-<input type="text" placeholder="imię"> </label>
+<p1>Imię i nazwisko</p1><br>
+<input type="text" placeholder="imię" required> </label>
 <label>
-<input type="text" placeholder="nazwisko"
+<input type="text" placeholder="nazwisko" required
 </label><br><br><p>Numer tel</p>
 <label>
-<input type="numer" placeholder="numer"><br><br>
-<label><input type="text" placeholder="e-mail"</label>
+<input type="tel" placeholder="numer" required><br><br>
+<p>Poczta</p>
+<label><input type="text" placeholder="e-mail" required></label>
+</label>
+<label><input type="password" placeholder="password" required></label>
 </label>
 <br><br>
 <p>Kraj</p>
 
 <label>
-<select> <option></option> <option>Poland</option> <option>Ukraine</option> <option>russia</option> <option>Bilorus</option> <option>England</option> <option>Kazakhstan</option> </select>
+<select> <option></option> <option>Poland</option> <option value="ua">Ukraine</option> <option>russia</option> <option>Bilorus</option> <option>England</option> <option>Kazakhstan</option> </select>
 </label><br><br>
 
 <label>
-<input type="number" placeholder="lata">
+<input type="number" placeholder="lata" required>
 </label><br><br>
 <p>Plec</p>
 <label>
-<input type="radio" name="plec" value="m">Mężczyzna
+<input type="radio" name="plec" value="m" required>Mężczyzna
 </label>
 <label>
-<input type="radio" name="plec" value="k">Kobieta
+<input type="radio" name="plec" value="k" required>Kobieta
 </label>
 <br><br>
 <p>Zgadzam się</p>
 <label>
-<input type="checkbox">Wszystkie warunki
+<input type="checkbox" required>Wszystkie warunki
 </label>
 <label><br>
-<input type="checkbox">I jeszcze coś
+<input type="checkbox" required>I jeszcze coś
 </label>
 
 
